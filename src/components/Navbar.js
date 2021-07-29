@@ -6,6 +6,8 @@ import Dropdown from './Dropdown';
 
 import { FaBars } from 'react-icons/fa'
 import {AiOutlineCloseCircle} from 'react-icons/ai';
+import Logo from '../images/weed.svg';
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -34,7 +36,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          EPIC
+          <img src={Logo} alt="" />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
             {click ? <AiOutlineCloseCircle/> : <FaBars/> }
@@ -42,7 +44,7 @@ function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Home
+              Inicio
             </Link>
           </li>
           <li
@@ -51,30 +53,32 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/services'
+              to='/sobre'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Services <i className='fas fa-caret-down' />
+              Sobre <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
             <Link
-              to='/products'
+              to='/aulas'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Products
+              Aulas
             </Link>
           </li>
+          
+          
           <li className='nav-item'>
             <Link
-              to='/contact-us'
+              to='/contato'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Contact Us
+              Contato
             </Link>
           </li>
           <li>

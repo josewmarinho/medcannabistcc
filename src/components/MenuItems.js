@@ -1,22 +1,17 @@
 export const MenuItems = [
   {
-    title: 'Marketing',
-    path: '/marketing',
+    title: 'Cannabis',
+    path: '/cannabis',
     cName: 'dropdown-link'
   },
   {
-    title: 'Consulting',
-    path: '/consulting',
+    title: 'Padre Ticão',
+    path: '/padreticao',
     cName: 'dropdown-link'
   },
   {
-    title: 'Design',
-    path: '/design',
+    title: 'Curso MovReCam',
+    path: '/curso',
     cName: 'dropdown-link'
   },
-  {
-    title: 'Development',
-    path: '/development',
-    cName: 'dropdown-link'
-  }
 ];
