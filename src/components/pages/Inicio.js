@@ -16,7 +16,7 @@ export default function Inicio() {
             Faça parte da proxima turma de medicina canábica e se informe!! <br />
           </p>
 
-          <div className="btninscrever"><a href="/">Inscreva-se</a></div>
+          <div className="btninscrever"><a target="_blank" rel="noopener noreferrer" href="https://sistemas.unifesp.br/acad/proec-siex/index.php?page=INS&acao=1&code=20258">Inscreva-se</a></div>
         </section>
 
         <img src={imgInicio} alt="Girl Coding" />

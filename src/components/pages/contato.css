@@ -1,0 +1,53 @@
+.containerContato{
+   max-width: 400px;
+   margin: 0 auto;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.containerContato .heroContato{
+   margin-top: 3rem;
+}
+.containerContato .heroContato h1{
+   font-size: 3rem;
+}
+
+.containerContato .heroContato .linkk{
+   margin-top: 4rem;
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: #EA2050;
+
+}
+.containerContato .heroContato .linkk svg{
+   width: 40px;
+   height: 40px;
+}
+
+.containerContato .heroContato .linkk h2{
+   font-size: 1.9rem;
+   margin-left: 1rem;
+}
+
+.containerContato .heroContato .linkk2{
+   margin-top: 1.5rem;
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: #1888ff;
+
+}
+.containerContato .heroContato .linkk2 svg{
+   width: 40px;
+   height: 40px;
+}
+
+.containerContato .heroContato .linkk2 h2{
+   font-size: 1.9rem;
+   margin-left: 0.2rem;
+
+}

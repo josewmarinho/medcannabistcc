@@ -82,13 +82,15 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link
-              to='/sign-up'
+            <a
+              target="_blank" 
+              rel="noopener noreferrer"
+              href='https://sistemas.unifesp.br/acad/proec-siex/index.php?page=INS&acao=1&code=20258'
               className='nav-links-mobile'
               onClick={closeMobileMenu}
             >
-              Sign Up
-            </Link>
+              Inscreva-se
+            </a>
           </li>
         </ul>
         <Button />

@@ -1,14 +1,16 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import './App.css';
-import Inicio from './components/pages/Inicio';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import ContactUs from './components/pages/ContactUs';
-import SignUp from './components/pages/SignUp';
-import Marketing from './components/pages/Marketing';
-import Consulting from './components/pages/Consulting';
+
+import './App.css';
+
+import Navbar from './components/Navbar';
+import Inicio from './components/pages/Inicio';
+import Sobre from './components/pages/Sobre';
+import Cannabis from './components/pages/Cannabis';
+import Padre from './components/pages/Padre';
+import Curso from './components/pages/Curso';
+import Aula from './components/pages/Aula';
+import Contato from './components/pages/Contato';
 
 function App() {
   return (
@@ -16,12 +18,12 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Inicio} />
-        <Route path='/services' component={Services} />
-        <Route path='/products' component={Products} />
-        <Route path='/contact-us' component={ContactUs} />
-        <Route path='/sign-up' component={SignUp} />
-        <Route path='/marketing' component={Marketing} />
-        <Route path='/consulting' component={Consulting} />
+        <Route path='/sobre' component={Sobre} />
+        <Route path='/cannabis' component={Cannabis} />
+        <Route path='/padreticao' component={Padre} />
+        <Route path='/curso' component={Curso} />
+        <Route path='/aulas' component={Aula} />
+        <Route path='/contato' component={Contato} />
       </Switch>
     </Router>
   );

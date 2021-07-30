@@ -1,0 +1,57 @@
+.containerPadre {
+   max-width: 400px;
+   margin: 0 auto;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: justify; 
+}
+
+.containerPadre .heroPadre {
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: justify; 
+}
+
+.containerPadre h1 {
+   font-size: 2rem;
+   margin-top: 3rem;
+   color: #0A0000;
+}
+.containerPadre p {
+   margin-top: 2rem;
+   line-height: 1.5rem;
+
+}.containerPadre p:last-child {
+   margin-bottom: 3rem;
+   padding-bottom: 2rem;
+}
+
+.containerPadre img {
+   margin-top: 3rem;
+   margin-bottom: 2rem;
+   max-width: 400px;
+
+   width: 450px;
+   height: 250px;
+   border-radius: 15px;
+}
+
+@media screen and (min-width: 700px) {
+   .containerPadre {
+      max-width: 900px;
+      margin: 0 auto;
+   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: justify; 
+   }
+
+}

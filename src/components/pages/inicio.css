@@ -42,9 +42,9 @@
  }
 
  .btninscrever {
-   margin: 3rem 6rem 0rem 6rem;
-   padding: 10px 15px;
-   border-radius: 4px;
+   margin: 3rem 4rem 0rem 3rem;
+   padding: 15px 15px;
+   border-radius: 15px;
    outline: none;
    border: none;
    font-size: 18px;
@@ -62,7 +62,7 @@
  }
 
  .btninscrever:hover {
-   padding: 8px 13px;
+   padding: 13px 13px;
    transition: all 0.3s ease-out;
    background-color: transparent;
    color: #fff;
@@ -98,8 +98,8 @@
     }
    
     .hero p {
-      font-size: 1.5rem;
-       line-height: 2.25rem;
+      font-size: 1.3rem;
+       line-height: 2rem;
        margin-top: 1.5rem;
     }
    

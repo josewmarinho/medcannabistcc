@@ -1,0 +1,73 @@
+.containerCannabis {
+   max-width: 400px;
+   margin: 0 auto;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: justify; 
+}
+
+.containerCannabis .heroCannabis {
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: justify; 
+}
+
+.containerCannabis h1 {
+   font-size: 2rem;
+   margin-top: 3rem;
+   color: #0A0000;
+}
+.containerCannabis p {
+   margin-top: 2rem;
+   line-height: 1.5rem;
+}
+
+.containerCannabis img {
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   max-width: 400px;
+
+   width: 450px;
+   height: 250px;
+   border-radius: 15px;
+}
+
+@media screen and (min-width: 700px) {
+   .containerCannabis {
+      max-width: 1200px;
+      margin: 0 auto;
+   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      text-align: justify; 
+   }
+   .containerCannabis .heroCannabis {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: justify;
+      max-width: 650px; 
+   }
+
+   .containerCannabis img {
+      margin-left: 4rem;
+      width: 677px;
+      height: 450px;
+      border-radius: 15px;
+   }
+
+   .containerCannabis .heroCannabis p:last-child{
+
+     margin-bottom: 1.5rem;
+   }
+}
