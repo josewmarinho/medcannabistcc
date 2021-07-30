@@ -19,11 +19,14 @@
 }
 
 .containerPadre h1 {
+   font-weight: 900;
    font-size: 2rem;
-   margin-top: 3rem;
+   margin-top: 1.8rem;
    color: #0A0000;
 }
 .containerPadre p {
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
    margin-top: 2rem;
    line-height: 1.5rem;
 

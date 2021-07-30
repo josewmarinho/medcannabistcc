@@ -16,7 +16,7 @@ export default function Sobre() {
       <ul>
         <li><Link to="/cannabis">Cannabis</Link></li>
         <li><Link to="/padreticao">Padre Ticão</Link></li>
-        <li><Link to="/informacao">Curso MovReCam</Link></li>
+        <li><Link to="/curso">Curso MovReCam</Link></li>
       </ul>
       </section>
     </main>

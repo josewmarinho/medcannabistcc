@@ -19,7 +19,7 @@ export default function Inicio() {
           <div className="btninscrever"><a target="_blank" rel="noopener noreferrer" href="https://sistemas.unifesp.br/acad/proec-siex/index.php?page=INS&acao=1&code=20258">Inscreva-se</a></div>
         </section>
 
-        <img src={imgInicio} alt="Girl Coding" />
+        <img src={imgInicio} alt="CBD" />
       </main>
     </>
   );

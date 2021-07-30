@@ -10,11 +10,14 @@
 
 .containerAula  .tituloAula{
    margin-top: 3rem;
+   font-weight: 900;
 }
+
 
 .containerAula  .turmaAula {
    font-size: 14px;
    margin-top: 5px;
+   font-weight: bold;
 }
 
 .containerAula .heroAula {
@@ -25,7 +28,7 @@
 }
 
 .containerAula .heroAula .contentLink {
-   margin-top: 2rem;
+   margin-top: 1rem;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -69,8 +72,9 @@
    color: #0A0000;
 }
 .containerAula .heroAula .contentLink .linkk .contentText p{
-   font-size: 14px;
+   font-size: 15px;
    color: #0A0000;
+
 }
 
 /* ###### LINK 2 */
@@ -88,7 +92,7 @@
    align-items: center;
    text-decoration: none;
    margin-top: 1rem;
-   border: 0.9px solid #b4b4b4;
+   border: 0.9px solid #EA2050;
    border-radius: 15px;
    transition: 0.2;
    width: 100%;

@@ -22,19 +22,28 @@
 .containerAbout .heroAbout h1 {
    font-size: 2rem;
    color: #0A0000;
+   font-weight: 900;
+
 }
 .containerAbout .heroAbout ul {
    margin-top: 2rem;
 }
 .containerAbout .heroAbout ul li {
    margin-top: 1rem;
+   
 }
 
 .containerAbout .heroAbout ul li a {
    text-decoration: none;
    font-size: 1.5rem;
+   font-weight: bold;
    color: #1a8706;
 }
+
+.containerAbout .heroAbout ul li a:last-child {
+   margin-bottom: 0.5rem;
+}
+
 
 .containerAbout .heroAbout ul li a:hover {
    text-decoration: none;

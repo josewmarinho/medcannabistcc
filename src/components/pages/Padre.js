@@ -7,7 +7,7 @@ export default function Padre() {
   return (
     <>
       <main className="containerPadre">
-        <img src={imgPticao} alt="" />
+        <img src={imgPticao} alt="Padre Ticão" />
         <section className="heroPadre"></section>
         <h1>Padre Ticão</h1>
         <p>O padre Antônio Luís Marchioni, mais conhecido como Padre Ticão, um sacerdote que lutou por diversas causas sociais. O religioso foi líder comunitário em Ermelino Matarazzo, na zona leste de São Paulo, onde fica sua paróquia. E pelo direito à saúde, ele desenvolveu um curso de naturopatia e outro para estudar a Cannabis medicinal – ambos em parceria com a Universidade Federal de São Paulo. Ele sonhava em tornar o povo independente daquilo que ele chama de “medicina do mercado”.</p>

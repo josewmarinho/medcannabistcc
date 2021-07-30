@@ -15,7 +15,7 @@ export default function Cannabis() {
           <p>O sistema endocanabinoide é um sistema Central que faz parte do metabolismo, tem inúmeras funções fisiológicas relacionadas e é por isso que tem tantas aplicações médicas por que de fato, se encontra numa espécie de encruzilhada metabólica entre diferentes processos com efeito sem resposta imune, apetite, sono, ansiedade, emoção, funções cardiovascular e respiratória, pressão intraocular, inflamação, reprodução, formação de novas memórias, extinção de memórias traumáticas, neuroproteção, neurogênese, percepção, coordenação motora, fluxo de pensamento e criatividade, motivação, entre outros mecanismos.</p>
           <p>O que é maconha medicinal? Quais são suas aplicações? Quais são os cuidados que a gente deve ter? É preciso ter as respostas dessas perguntas bem concretas na cabeça, para ser criada uma nova medicina que não só atenda melhor os interesses dos pacientes, mas resolva os seus sintomas ou cuide das causas das doenças, e que possa acontecer no ambiente de legalidade de harmonia de entendimento. Permitindo também reduzir as desigualdades as injustiças que aconteceram com as comunidades mais vulneráveis durante todo esse período da guerra às drogas. </p>
         </section>
-        <img src={imgCannbis} alt="" />
+        <img src={imgCannbis} alt="Imagem Cannabis" />
       </main>
     </>
   )

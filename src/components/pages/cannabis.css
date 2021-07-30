@@ -22,8 +22,11 @@
    font-size: 2rem;
    margin-top: 3rem;
    color: #0A0000;
+   font-weight: 900;
 }
 .containerCannabis p {
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
    margin-top: 2rem;
    line-height: 1.5rem;
 }

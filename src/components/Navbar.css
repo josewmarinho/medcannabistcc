@@ -123,6 +123,10 @@
   .menu-icon svg {
     color: #1A8706;
     font-size: 2rem;
+    transition: 0.2;
+  }
+  .menu-icon svg:hover{
+    color: #39af25;
   }
 
   .nav-links-mobile {
