@@ -9,7 +9,7 @@ export default function Inicio() {
         <section className="hero">
 
           <h1>
-            A ignorância <br /> é <span>o maior mal</span> <br /> da sociedade!
+            A ignorância é <br /> <span>o maior mal</span> <br /> da sociedade!
           </h1>
 
           <p>
