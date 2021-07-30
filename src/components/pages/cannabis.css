@@ -25,8 +25,10 @@
    font-weight: 900;
 }
 .containerCannabis p {
-   padding-left: 0.5rem;
-   padding-right: 0.5rem;
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
    margin-top: 2rem;
    line-height: 1.5rem;
 }
