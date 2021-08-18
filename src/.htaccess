@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+        RewriteRule ^(.*)$ https://movrecam.netlify.app/$1 [R,L]
+	RewriteCond %{REQUEST_FILENAME}.js -f
+	RewriteRule !.*\.js$ %{REQUEST_FILENAME}.js [QSA,L]
+</IfModule>
