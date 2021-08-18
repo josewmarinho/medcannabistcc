@@ -18,7 +18,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Inicio} />
-        <Route path='/sobre' component={Sobre} />
+        <Route path='./sobre' component={Sobre} />
         <Route path='/cannabis' component={Cannabis} />
         <Route path='/padreticao' component={Padre} />
         <Route path='/curso' component={Curso} />
